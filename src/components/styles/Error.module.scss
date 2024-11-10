@@ -1,0 +1,29 @@
+$error-background: #ffebee;
+$error-border: #f44336;
+$error-text-color: #b71c1c;
+@import "mixins";
+
+.container {
+  @include flex-container;
+  flex-direction: column;
+  padding: 2rem;
+  width: 100%;
+  margin: 2rem auto;
+  margin-top: 18rem;
+  background-color: $error-background;
+  border: 0.1rem solid $error-border;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+  max-width: 65rem;
+  h1 {
+    color: $error-text-color;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  p {
+    color: #333;
+    font-size: 1rem;
+    text-align: center;
+  }
+}

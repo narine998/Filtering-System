@@ -1,0 +1,47 @@
+@import "mixins";
+@import "general";
+$primary-color: #3498db;
+$background-color: #f8f9fa;
+$text-color: #333;
+$button-background: #e74c3c;
+
+.results {
+  @include flex-container;
+  flex-direction: column;
+  width: 35%;
+  padding: 2rem;
+  background-color: $background-color;
+  text-align: center;
+  color: $text-color;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: $breakpoint-large) {
+  .results {
+    width: 50%;
+  }
+}
+
+@media (max-width: $breakpoint-medium) {
+  .results {
+    width: 75%;
+  }
+}
+@media (max-width: $breakpoint-small) {
+  .results {
+    width: 100%;
+    padding: 1.5rem;
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}

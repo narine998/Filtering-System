@@ -1,0 +1,85 @@
+@import "general";
+@import "mixins";
+
+.head {
+  width: 100%;
+  padding: $container-padding;
+  background-color: $header-bg-color;
+  box-shadow: 0 0 0.8rem black;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  font-size: 1.8rem;
+  @include flex-container;
+
+  form {
+    @include flex-container;
+    width: 90%;
+    gap: 1rem;
+  }
+  input {
+    width: 40%;
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    border: 0.1rem solid gray;
+  }
+
+  .menu {
+    @include flex-container;
+    gap: 0.5rem;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: $main-btn-color;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 14rem;
+    border: none;
+    transition: all 2s ease;
+    &:hover {
+      background-color: $main-btn-hover-color;
+    }
+  }
+}
+
+.logo {
+  width: 5rem;
+  cursor: pointer;
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: $breakpoint-large) {
+  .head {
+    input {
+      width: 60%;
+    }
+    .menu {
+      padding: 0.5rem;
+      width: 15rem;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-small) {
+  .head {
+    padding: 1rem 1.5rem;
+    input {
+      padding: 0.2rem 0.8rem;
+      width: 72%;
+    }
+    .menu {
+      width: 4rem;
+      background: none;
+      padding: 0;
+      span {
+        display: none;
+      }
+    }
+  }
+  .logo {
+    img {
+      width: 70%;
+    }
+  }
+}

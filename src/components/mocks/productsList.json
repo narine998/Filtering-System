@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Sofa",
+    "imageUrl": "https://via.placeholder.com/150",
+    "category": "Furniture",
+    "brand": "Brand A",
+    "price": 80,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://via.placeholder.com/150",
+    "name": "Lenovo",
+    "category": "Electronics",
+    "brand": "Brand B",
+    "price": 42.59,
+    "rating": 4.0
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://via.placeholder.com/150",
+    "name": "Shoes",
+    "category": "Footwear",
+    "brand": "Brand C",
+    "price": 60.5,
+    "rating": 3.9
+  }
+]

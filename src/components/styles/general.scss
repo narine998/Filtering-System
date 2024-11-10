@@ -1,0 +1,15 @@
+$breakpoint-small: 530px;
+$breakpoint-medium: 780px;
+$breakpoint-large: 1024px;
+$header-bg-color: rgb(253, 253, 255);
+$main-btn-color: rgb(249, 163, 26);
+$main-btn-hover-color: rgb(237, 170, 62);
+$btn-text-color: white;
+$container-padding: 3rem 1rem;
+$shimmer-background: #e0e0e0;
+$shimmer-gradient: linear-gradient(
+  90deg,
+  $shimmer-background 25%,
+  #f0f0f0 50%,
+  $shimmer-background 75%
+);

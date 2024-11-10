@@ -1,0 +1,50 @@
+@import "general";
+@import "mixins";
+
+.shimmer {
+  @include flex-container;
+  gap: 5rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin-top: 18rem;
+
+  .card {
+    background-color: #fff;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.1);
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+    animation: shimmer 1.5s infinite;
+
+    .image {
+      width: 100%;
+      height: 16rem;
+      background: $shimmer-gradient;
+    }
+    .info {
+      padding: 2rem;
+
+      .text {
+        height: 1.6rem;
+        width: 80%;
+        background: $shimmer-background;
+        border-radius: 0.4rem;
+
+        &.short {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -20rem 0;
+  }
+  100% {
+    background-position: 20rem 0;
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "brand": "Brand A",
+      "price": 99.99,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "brand": "Brand B",
+      "price": 49.99,
+      "rating": 4.0
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "brand": "Brand C",
+      "price": 59.99,
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "brand": "Brand D",
+      "price": 499.99,
+      "rating": 4.8
+    },
+    {
+      "id": 5,
+      "name": "Leather Jacket",
+      "category": "Clothing",
+      "brand": "Brand E",
+      "price": 199.99,
+      "rating": 4.7
+    },
+    {
+      "id": 6,
+      "name": "Tablet",
+      "category": "Electronics",
+      "brand": "Brand A",
+      "price": 299.99,
+      "rating": 4.3
+    },
+    {
+      "id": 7,
+      "name": "Gaming Console",
+      "category": "Electronics",
+      "brand": "Brand B",
+      "price": 399.99,
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "name": "Digital Camera",
+      "category": "Electronics",
+      "brand": "Brand C",
+      "price": 549.99,
+      "rating": 4.4
+    },
+    {
+      "id": 9,
+      "name": "Fitness Tracker",
+      "category": "Electronics",
+      "brand": "Brand D",
+      "price": 79.99,
+      "rating": 4.1
+    },
+    {
+      "id": 10,
+      "name": "Smartwatch",
+      "category": "Electronics",
+      "brand": "Brand E",
+      "price": 199.99,
+      "rating": 4.3
+    },
+    {
+      "id": 11,
+      "name": "4K TV",
+      "category": "Electronics",
+      "brand": "Brand A",
+      "price": 799.99,
+      "rating": 4.7
+    },
+    {
+      "id": 12,
+      "name": "Electric Guitar",
+      "category": "Musical Instruments",
+      "brand": "Brand B",
+      "price": 399.99,
+      "rating": 4.6
+    },
+    {
+      "id": 13,
+      "name": "Bass Guitar",
+      "category": "Musical Instruments",
+      "brand": "Brand C",
+      "price": 499.99,
+      "rating": 4.7
+    },
+    {
+      "id": 14,
+      "name": "Digital Piano",
+      "category": "Musical Instruments",
+      "brand": "Brand D",
+      "price": 699.99,
+      "rating": 4.8
+    },
+    {
+      "id": 15,
+      "name": "Drum Set",
+      "category": "Musical Instruments",
+      "brand": "Brand E",
+      "price": 899.99,
+      "rating": 4.5
+    },
+    {
+      "id": 16,
+      "name": "Sofa",
+      "category": "Furniture",
+      "brand": "Brand A",
+      "price": 499.99,
+      "rating": 4.2
+    },
+    {
+      "id": 17,
+      "name": "Coffee Table",
+      "category": "Furniture",
+      "brand": "Brand B",
+      "price": 99.99,
+      "rating": 4.3
+    },
+    {
+      "id": 18,
+      "name": "Office Chair",
+      "category": "Furniture",
+      "brand": "Brand C",
+      "price": 149.99,
+      "rating": 4.4
+    },
+    {
+      "id": 19,
+      "name": "Bookshelf",
+      "category": "Furniture",
+      "brand": "Brand D",
+      "price": 199.99,
+      "rating": 4.1
+    },
+    {
+      "id": 20,
+      "name": "Dining Table",
+      "category": "Furniture",
+      "brand": "Brand E",
+      "price": 399.99,
+      "rating": 4.5
+    },
+    {
+      "id": 21,
+      "name": "Mountain Bike",
+      "category": "Outdoor",
+      "brand": "Brand A",
+      "price": 299.99,
+      "rating": 4.3
+    },
+    {
+      "id": 22,
+      "name": "Tent",
+      "category": "Outdoor",
+      "brand": "Brand B",
+      "price": 149.99,
+      "rating": 4.5
+    },
+    {
+      "id": 23,
+      "name": "Hiking Boots",
+      "category": "Outdoor",
+      "brand": "Brand C",
+      "price": 129.99,
+      "rating": 4.4
+    },
+    {
+      "id": 24,
+      "name": "Yoga Mat",
+      "category": "Fitness",
+      "brand": "Brand D",
+      "price": 29.99,
+      "rating": 4.6
+    },
+    {
+      "id": 25,
+      "name": "Dumbbells",
+      "category": "Fitness",
+      "brand": "Brand E",
+      "price": 49.99,
+      "rating": 4.5
+    },
+    {
+      "id": 26,
+      "name": "Treadmill",
+      "category": "Fitness",
+      "brand": "Brand A",
+      "price": 999.99,
+      "rating": 4.7
+    },
+    {
+      "id": 27,
+      "name": "Elliptical Machine",
+      "category": "Fitness",
+      "brand": "Brand B",
+      "price": 799.99,
+      "rating": 4.6
+    },
+    {
+      "id": 28,
+      "name": "Blender",
+      "category": "Kitchen Appliances",
+      "brand": "Brand C",
+      "price": 39.99,
+      "rating": 4.2
+    },
+    {
+      "id": 29,
+      "name": "Microwave Oven",
+      "category": "Kitchen Appliances",
+      "brand": "Brand D",
+      "price": 89.99,
+      "rating": 4.4
+    },
+    {
+      "id": 30,
+      "name": "Air Fryer",
+      "category": "Kitchen Appliances",
+      "brand": "Brand E",
+      "price": 79.99,
+      "rating": 4.6
+    },
+    {
+      "id": 31,
+      "name": "Vacuum Cleaner",
+      "category": "Home Appliances",
+      "brand": "Brand A",
+      "price": 129.99,
+      "rating": 4.3
+    },
+    {
+      "id": 32,
+      "name": "Iron",
+      "category": "Home Appliances",
+      "brand": "Brand B",
+      "price": 29.99,
+      "rating": 4.1
+    },
+    {
+      "id": 33,
+      "name": "Washing Machine",
+      "category": "Home Appliances",
+      "brand": "Brand C",
+      "price": 499.99,
+      "rating": 4.5
+    },
+    {
+      "id": 34,
+      "name": "Refrigerator",
+      "category": "Home Appliances",
+      "brand": "Brand D",
+      "price": 799.99,
+      "rating": 4.6
+    },
+    {
+      "id": 35,
+      "name": "Men's Sneakers",
+      "category": "Footwear",
+      "brand": "Brand E",
+      "price": 89.99,
+      "rating": 4.3
+    },
+    {
+      "id": 36,
+      "name": "Women's Sandals",
+      "category": "Footwear",
+      "brand": "Brand A",
+      "price": 49.99,
+      "rating": 4.4
+    },
+    {
+      "id": 37,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "brand": "Brand B",
+      "price": 99.99,
+      "rating": 4.7
+    },
+    {
+      "id": 38,
+      "name": "Formal Shoes",
+      "category": "Footwear",
+      "brand": "Brand C",
+      "price": 129.99,
+      "rating": 4.5
+    },
+    {
+      "id": 39,
+      "name": "Kids' Sneakers",
+      "category": "Footwear",
+      "brand": "Brand D",
+      "price": 39.99,
+      "rating": 4.2
+    },
+    {
+      "id": 40,
+      "name": "Blender",
+      "category": "Kitchen Appliances",
+      "brand": "Brand E",
+      "price": 69.99,
+      "rating": 4.4
+    },
+    {
+      "id": 41,
+      "name": "Espresso Machine",
+      "category": "Kitchen Appliances",
+      "brand": "Brand A",
+      "price": 129.99,
+      "rating": 4.5
+    },
+    {
+      "id": 42,
+      "name": "Gaming Laptop",
+      "category": "Electronics",
+      "brand": "Brand B",
+      "price": 999.99,
+      "rating": 4.6
+    },
+    {
+      "id": 43,
+      "name": "Sports Watch",
+      "category": "Electronics",
+      "brand": "Brand C",
+      "price": 149.99,
+      "rating": 4.4
+    },
+    {
+      "id": 44,
+      "name": "Winter Jacket",
+      "category": "Clothing",
+      "brand": "Brand D",
+      "price": 199.99,
+      "rating": 4.7
+    },
+    {
+      "id": 45,
+      "name": "Dress Shoes",
+      "category": "Footwear",
+      "brand": "Brand E",
+      "price": 149.99,
+      "rating": 4.5
+    },
+    {
+      "id": 46,
+      "name": "Baseball Cap",
+      "category": "Clothing",
+      "brand": "Brand A",
+      "price": 29.99,
+      "rating": 4.1
+    },
+    {
+      "id": 47,
+      "name": "Sunglasses",
+      "category": "Accessories",
+      "brand": "Brand B",
+      "price": 69.99,
+      "rating": 4.5
+    },
+    {
+      "id": 48,
+      "name": "Handbag",
+      "category": "Accessories",
+      "brand": "Brand C",
+      "price": 149.99,
+      "rating": 4.4
+    },
+    {
+      "id": 49,
+      "name": "Leather Belt",
+      "category": "Accessories",
+      "brand": "Brand D",
+      "price": 49.99,
+      "rating": 4.6
+    },
+    {
+      "id": 50,
+      "name": "Smartphone Case",
+      "category": "Accessories",
+      "brand": "Brand E",
+      "price": 19.99,
+      "rating": 4.3
+    }
+  ]
+}

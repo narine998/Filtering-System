@@ -1,0 +1,18 @@
+@import "general";
+@import "mixins";
+
+.container {
+  @include flex-container;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: $container-padding;
+  margin-top: 18rem;
+  @media (max-width: $breakpoint-large) {
+    margin-top: 12rem;
+    gap: 2.8rem;
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: 8rem;
+    gap: 2.8rem;
+  }
+}
